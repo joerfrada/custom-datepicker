@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .box {
+        width: 256px;
+        margin-top: 150px;
+    }
+}
+
+input[type="text"] {
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0.02) 0%, rgba(255, 255, 255, 0.02) 50%); 
+    border: 1px solid rgba(0, 0, 0, 0.16); 
+    height: 30px; 
+    padding: 15px;
+    font-size: 13px;
+    border-radius: 4px;
+    width: 256px;
+    margin-bottom: 10px;
+}
